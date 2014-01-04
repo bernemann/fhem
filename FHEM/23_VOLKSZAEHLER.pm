@@ -40,7 +40,7 @@ VOLKSZAEHLER_Initialize($)
   my ($hash) = @_;
 
   $hash->{DefFn}     = "VOLKSZAEHLER_Define";
-  $hash->{AttrList}  = "delay loglevel:0,1,2,3,4,5,6 ".
+  $hash->{AttrList}  = "delay".
     "stateS ".
     $readingFnAttributes;
 }
